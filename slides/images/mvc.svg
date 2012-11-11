@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="11cm" height="12cm" viewBox="447 85 202 239" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: #ffffff" d="M 540.65 86 L 583.35,86 C 589.246,86 594.025,94.9543 594.025,106 C 594.025,117.046 589.246,126 583.35,126 L 540.65,126 C 534.754,126 529.975,117.046 529.975,106 C 529.975,94.9543 534.754,86 540.65,86z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 540.65 86 L 583.35,86 C 589.246,86 594.025,94.9543 594.025,106 C 594.025,117.046 589.246,126 583.35,126 L 540.65,126 C 534.754,126 529.975,117.046 529.975,106 C 529.975,94.9543 534.754,86 540.65,86"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="562" y="110">
+      <tspan x="562" y="110">User</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 465.525 180 L 534.475,180 C 543.995,180 551.712,188.954 551.712,200 C 551.712,211.046 543.995,220 534.475,220 L 465.525,220 C 456.005,220 448.287,211.046 448.287,200 C 448.287,188.954 456.005,180 465.525,180z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 465.525 180 L 534.475,180 C 543.995,180 551.712,188.954 551.712,200 C 551.712,211.046 543.995,220 534.475,220 L 465.525,220 C 456.005,220 448.287,211.046 448.287,200 C 448.287,188.954 456.005,180 465.525,180"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="204">
+      <tspan x="500" y="204">Controller</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 477.75 282 L 522.25,282 C 528.394,282 533.375,290.954 533.375,302 C 533.375,313.046 528.394,322 522.25,322 L 477.75,322 C 471.606,322 466.625,313.046 466.625,302 C 466.625,290.954 471.606,282 477.75,282z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 477.75 282 L 522.25,282 C 528.394,282 533.375,290.954 533.375,302 C 533.375,313.046 528.394,322 522.25,322 L 477.75,322 C 471.606,322 466.625,313.046 466.625,302 C 466.625,290.954 471.606,282 477.75,282"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="306">
+      <tspan x="500" y="306">Model</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 602.825 182 L 639.175,182 C 644.194,182 648.262,190.954 648.262,202 C 648.262,213.046 644.194,222 639.175,222 L 602.825,222 C 597.806,222 593.737,213.046 593.737,202 C 593.737,190.954 597.806,182 602.825,182z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 602.825 182 L 639.175,182 C 644.194,182 648.262,190.954 648.262,202 C 648.262,213.046 644.194,222 639.175,222 L 602.825,222 C 597.806,222 593.737,213.046 593.737,202 C 593.737,190.954 597.806,182 602.825,182"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="621" y="206">
+      <tspan x="621" y="206">View</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="551.325" y1="126" x2="507.578" y2="172.027"/>
+    <polygon style="fill: #000000" points="503.954,168.582 500.689,179.275 511.202,175.471 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="503.954,168.582 500.689,179.275 511.202,175.471 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="482.762" y1="220" x2="487.796" y2="271.053"/>
+    <polygon style="fill: #000000" points="482.82,271.544 488.777,281.005 492.772,270.563 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="482.82,271.544 488.777,281.005 492.772,270.563 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="551.712" y1="200" x2="582.75" y2="201.477"/>
+    <polygon style="fill: #000000" points="582.512,206.471 592.739,201.952 582.988,196.483 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="582.512,206.471 592.739,201.952 582.988,196.483 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="511.125" y1="282" x2="516.158" y2="230.947"/>
+    <polygon style="fill: #000000" points="521.134,231.437 517.139,220.995 511.182,230.456 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="521.134,231.437 517.139,220.995 511.182,230.456 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="621" y1="182" x2="579.862" y2="134.328"/>
+    <polygon style="fill: #000000" points="583.647,131.061 573.328,126.757 576.076,137.594 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="583.647,131.061 573.328,126.757 576.076,137.594 "/>
+  </g>
+</svg>
