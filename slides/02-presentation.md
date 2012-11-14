@@ -63,6 +63,114 @@
 * facilitates change
 * faster tests for application core logic (real unit tests)
 
+!SLIDE subsection code small
+# Fat Controller
+
+    @@@ ruby
+    class ApiController < ActionController
+      def import
+        article = Article.find_by_title(
+          params[:article][:title]
+        )
+        if article
+          article.update_attributes(params[:article])
+        else
+          Article.create(params[:article])
+        end
+      end
+    end
+
+!SLIDE subsection code small
+# Fat Controller
+
+    @@@ ruby
+    class ApiController < ActionController
+      def import
+        article = Article.find_by_title(
+          params[:article][:title]
+        )
+        if article
+          article.update_attributes(params[:article])
+          Cache.purge(article_path(article))
+        else
+          Article.create(params[:article])
+        end
+      end
+    end
+
+!SLIDE subsection code small
+# Fat Model
+
+    @@@ ruby
+    Article.import(params)
+    ...
+    class Article < ActiveRecord::Base
+      def self.import(params)
+        article = find_by_title(
+          params[:article][:title]
+        )
+        if article
+          article.update_attributes(params[:article])
+        else
+          create(params[:article])
+        end
+      end
+    end
+
+!SLIDE subsection code small
+# Fat Model
+
+    @@@ ruby
+    Article.import(params)
+    ...
+    class Article < ActiveRecord::Base
+      after_save :purge_cache
+
+      def self.import(params)
+        article = find_by_title(
+          params[:article][:title]
+        )
+        if article
+          article.update_attributes(params[:article])
+        else
+          create(params[:article])
+        end
+      end
+    end
+
+!SLIDE subsection code small
+# Hexagonal Approach
+
+    @@@ ruby
+    Publisher.new(Article).publish(params[:article])
+    ...
+    class Publisher
+      def initialize(model)
+        @model = model
+      end
+
+      def publish(attributes)
+        @model.update_or_create(attributes)
+      end
+    end
+
+!SLIDE subsection code small
+# Hexagonal Approach
+
+    @@@ ruby
+    Publisher.new(Article).publish(params[:article])
+    ...
+    class Publisher
+      def initialize(model)
+        @model = model
+      end
+
+      def publish(attributes)
+        instance = @model.update_or_create(attributes)
+        Cache.purge(instance.path)
+      end
+    end
+
 !SLIDE subsection
 # Questions?
 
